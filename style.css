@@ -2483,3 +2483,7 @@ select.mobile-device {
 .hide {
     display: none;
 }
+
+.me{
+    width: 50%;
+}
