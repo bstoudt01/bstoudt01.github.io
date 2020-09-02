@@ -28,6 +28,8 @@
 <link rel="stylesheet" href="css/custom.css">
 <script src="js/modernizr.js"></script> <!-- Modernizr -->
 
+<!-- Animation for slider -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
 <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -49,7 +51,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <img class="img-fluid" src="images/logo.png" alt="" />
+                <!-- <img class="img-fluid" src="images/logo.png" alt="" /> -->
             </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -85,7 +87,7 @@
         </div>
     </nav>
 
-    <section id="home" class="main-banner parallaxie" style="background: url('uploads/banner-01.jpg')">
+    <section id="home" class="main-banner parallaxie" style="background: url('uploads/brett_dunes.jpg')">
         <div class="heading">
             <h1>hello i'm Brett</h1>
             <p>I'm a Full Stack Web Developer <br> with a Background in <strong> Logistics & Brewery
@@ -223,7 +225,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="message-box">
-                        <h2>About Brett</h2>
+                        <h2 class="animate__animated animate__bounce">About Brett</h2>
                         <p> I'm a Talented Guy who's entering his career as a Software Engineer!
                             I enjoy solving problems and running the numbers to produce the highest quality product.
                             I have a background in brewery operations, logistics and eye for detail.
@@ -243,7 +245,7 @@
 
                 <div class="col-md-6">
                     <div class="right-box-pro wow fadeIn">
-                        <img src="uploads/about_04.jpg" alt="" class="img-fluid img-rounded">
+                        <img src="uploads/brett_upclose.jpg" alt="" class="img-fluid img-rounded">
                     </div><!-- end media -->
                 </div><!-- end col -->
             </div><!-- end row -->
@@ -267,11 +269,8 @@
                                     d="M107.3 45.2c-2.2-.8-4.5-1.6-6.9-2.3.6-2.4 1.1-4.8 1.5-7.1 2.1-13.2-.2-22.5-6.6-26.1-1.9-1.1-4-1.6-6.4-1.6-7 0-15.9 5.2-24.9 13.9-9-8.7-17.9-13.9-24.9-13.9-2.4 0-4.5.5-6.4 1.6-6.4 3.7-8.7 13-6.6 26.1.4 2.3.9 4.7 1.5 7.1-2.4.7-4.7 1.4-6.9 2.3-12.5 4.8-19.3 11.4-19.3 18.8s6.9 14 19.3 18.8c2.2.8 4.5 1.6 6.9 2.3-.6 2.4-1.1 4.8-1.5 7.1-2.1 13.2.2 22.5 6.6 26.1 1.9 1.1 4 1.6 6.4 1.6 7.1 0 16-5.2 24.9-13.9 9 8.7 17.9 13.9 24.9 13.9 2.4 0 4.5-.5 6.4-1.6 6.4-3.7 8.7-13 6.6-26.1-.4-2.3-.9-4.7-1.5-7.1 2.4-.7 4.7-1.4 6.9-2.3 12.5-4.8 19.3-11.4 19.3-18.8s-6.8-14-19.3-18.8zm-14.8-30.5c4.1 2.4 5.5 9.8 3.8 20.3-.3 2.1-.8 4.3-1.4 6.6-5.2-1.2-10.7-2-16.5-2.5-3.4-4.8-6.9-9.1-10.4-13 7.4-7.3 14.9-12.3 21-12.3 1.3 0 2.5.3 3.5.9zm-11.2 59.3c-1.8 3.2-3.9 6.4-6.1 9.6-3.7.3-7.4.4-11.2.4-3.9 0-7.6-.1-11.2-.4-2.2-3.2-4.2-6.4-6-9.6-1.9-3.3-3.7-6.7-5.3-10 1.6-3.3 3.4-6.7 5.3-10 1.8-3.2 3.9-6.4 6.1-9.6 3.7-.3 7.4-.4 11.2-.4 3.9 0 7.6.1 11.2.4 2.2 3.2 4.2 6.4 6 9.6 1.9 3.3 3.7 6.7 5.3 10-1.7 3.3-3.4 6.6-5.3 10zm8.3-3.3c1.5 3.5 2.7 6.9 3.8 10.3-3.4.8-7 1.4-10.8 1.9 1.2-1.9 2.5-3.9 3.6-6 1.2-2.1 2.3-4.2 3.4-6.2zm-25.6 27.1c-2.4-2.6-4.7-5.4-6.9-8.3 2.3.1 4.6.2 6.9.2 2.3 0 4.6-.1 6.9-.2-2.2 2.9-4.5 5.7-6.9 8.3zm-18.6-15c-3.8-.5-7.4-1.1-10.8-1.9 1.1-3.3 2.3-6.8 3.8-10.3 1.1 2 2.2 4.1 3.4 6.1 1.2 2.2 2.4 4.1 3.6 6.1zm-7-25.5c-1.5-3.5-2.7-6.9-3.8-10.3 3.4-.8 7-1.4 10.8-1.9-1.2 1.9-2.5 3.9-3.6 6-1.2 2.1-2.3 4.2-3.4 6.2zm25.6-27.1c2.4 2.6 4.7 5.4 6.9 8.3-2.3-.1-4.6-.2-6.9-.2-2.3 0-4.6.1-6.9.2 2.2-2.9 4.5-5.7 6.9-8.3zm22.2 21l-3.6-6c3.8.5 7.4 1.1 10.8 1.9-1.1 3.3-2.3 6.8-3.8 10.3-1.1-2.1-2.2-4.2-3.4-6.2zm-54.5-16.2c-1.7-10.5-.3-17.9 3.8-20.3 1-.6 2.2-.9 3.5-.9 6 0 13.5 4.9 21 12.3-3.5 3.8-7 8.2-10.4 13-5.8.5-11.3 1.4-16.5 2.5-.6-2.3-1-4.5-1.4-6.6zm-24.7 29c0-4.7 5.7-9.7 15.7-13.4 2-.8 4.2-1.5 6.4-2.1 1.6 5 3.6 10.3 6 15.6-2.4 5.3-4.5 10.5-6 15.5-13.8-4-22.1-10-22.1-15.6zm28.5 49.3c-4.1-2.4-5.5-9.8-3.8-20.3.3-2.1.8-4.3 1.4-6.6 5.2 1.2 10.7 2 16.5 2.5 3.4 4.8 6.9 9.1 10.4 13-7.4 7.3-14.9 12.3-21 12.3-1.3 0-2.5-.3-3.5-.9zm60.8-20.3c1.7 10.5.3 17.9-3.8 20.3-1 .6-2.2.9-3.5.9-6 0-13.5-4.9-21-12.3 3.5-3.8 7-8.2 10.4-13 5.8-.5 11.3-1.4 16.5-2.5.6 2.3 1 4.5 1.4 6.6zm9-15.6c-2 .8-4.2 1.5-6.4 2.1-1.6-5-3.6-10.3-6-15.6 2.4-5.3 4.5-10.5 6-15.5 13.8 4 22.1 10 22.1 15.6 0 4.7-5.8 9.7-15.7 13.4z">
                                 </path>
                             </svg>
-                            </svg>
                         </div>
-                        <h2>React </h2>
-                        <p>Focus on Functional Components with Hooks</p>
-                        <a>#BrewMore </a><a>#Brazil_Nuts</a>
+                        <h2>React</h2>
                     </div>
                 </div><!-- end col -->
                 <div class="col-md-2">
@@ -285,7 +284,6 @@
                             </svg>
                         </div>
                         <h2>BootStrap</h2>
-                        <a>#BrewMore</a>
                     </div>
                 </div><!-- end col -->
                 <div class="col-md-2">
@@ -300,7 +298,6 @@
                             </svg>
                         </div>
                         <h2>JavaScript</h2>
-                        <a>#Asking_For_Roses </a><a>#Dean_Martin</a>
                     </div>
                 </div><!-- end col -->
                 <div class="col-md-2">
@@ -321,7 +318,6 @@
                             </svg>
                         </div>
                         <h2>HTML5</h2>
-                        <a>#Daily_Journal</a>
                     </div>
                 </div><!-- end col -->
                 <div class="col-md-2">
@@ -349,11 +345,51 @@
                             </svg>
                         </div>
                         <h2>CSS3</h2>
-                        <a>#Daily_Journal</a>
                     </div>
-                </div><!-- end col -->
+                </div>
+                <div class="col-md-2">
+                    <div class="services-inner-box">
+                        <div class="aligncenter ser-icon">
+                            <!-- CSharp Logo -->
+                            <svg viewBox="0 0 128 128">
+                                <path fill="#9B4F96"
+                                    d="M115.4 30.7l-48.3-27.8c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.4 1 3.5l106.8-62c-.6-1.2-1.5-2.1-2.4-2.7z">
+                                </path>
+                                <path fill="#68217A"
+                                    d="M10.7 95.3c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4v-55.7c0-.9-.1-1.9-.6-2.8l-106.6 62z">
+                                </path>
+                                <path fill="#fff"
+                                    d="M85.3 76.1c-4.2 7.4-12.2 12.4-21.3 12.4-13.5 0-24.5-11-24.5-24.5s11-24.5 24.5-24.5c9.1 0 17.1 5 21.3 12.5l13-7.5c-6.8-11.9-19.6-20-34.3-20-21.8 0-39.5 17.7-39.5 39.5s17.7 39.5 39.5 39.5c14.6 0 27.4-8 34.2-19.8l-12.9-7.6zM97 66.2l.9-4.3h-4.2v-4.7h5.1l1.2-6.2h4.9l-1.2 6.1h3.8l1.2-6.1h4.8l-1.2 6.1h2.4v4.7h-3.3l-.9 4.3h4.2v4.7h-5.1l-1.2 6h-4.9l1.2-6h-3.8l-1.2 6h-4.8l1.2-6h-2.4v-4.7h3.3zm4.8 0h3.8l.9-4.3h-3.8l-.9 4.3z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h2>CSharp</h2>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-md-2">
+                    <div class="services-inner-box">
+                        <div class="aligncenter ser-icon">
+                            <!-- CSharp Logo -->
+                            <svg viewBox="0 0 128 128">
+                                <path fill="#9B4F96"
+                                    d="M115.4 30.7l-48.3-27.8c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.4 1 3.5l106.8-62c-.6-1.2-1.5-2.1-2.4-2.7z">
+                                </path>
+                                <path fill="#68217A"
+                                    d="M10.7 95.3c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4v-55.7c0-.9-.1-1.9-.6-2.8l-106.6 62z">
+                                </path>
+                                <path fill="#fff"
+                                    d="M85.3 76.1c-4.2 7.4-12.2 12.4-21.3 12.4-13.5 0-24.5-11-24.5-24.5s11-24.5 24.5-24.5c9.1 0 17.1 5 21.3 12.5l13-7.5c-6.8-11.9-19.6-20-34.3-20-21.8 0-39.5 17.7-39.5 39.5s17.7 39.5 39.5 39.5c14.6 0 27.4-8 34.2-19.8l-12.9-7.6zM97 66.2l.9-4.3h-4.2v-4.7h5.1l1.2-6.2h4.9l-1.2 6.1h3.8l1.2-6.1h4.8l-1.2 6.1h2.4v4.7h-3.3l-.9 4.3h4.2v4.7h-5.1l-1.2 6h-4.9l1.2-6h-3.8l-1.2 6h-4.8l1.2-6h-2.4v-4.7h3.3zm4.8 0h3.8l.9-4.3h-3.8l-.9 4.3z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h2>CSharp</h2>
+                    </div>
+                </div>
+                <!-- end col -->
                 <div class="col-md-6 aligncenter">
                     <div class="services-inner-box">
+                        <h2>Tools</h2>
                         <span class="ser-icon">
                             <!-- GitHub Logo -->
                             <svg class="ser-icon" viewBox="0 0 128 128">
@@ -402,7 +438,7 @@
                         <span class="ser-icon">
                             <img class="ser-icon" src="uploads/googleDocs.png" alt="Image">
                         </span>
-                        <h2>Tools</h2>
+
                     </div>
                 </div><!-- end col -->
             </div><!-- end row -->
@@ -419,7 +455,7 @@
                 <div class="col-md-12">
                     <div class="button-group filter-button-group text-left">
                         <button class="active" data-filter="*">All</button>
-                        <button data-filter=".gal_a">React</button>
+                        <button data-filter=".gal_a" id="reactlink">React</button>
                         <button data-filter=".gal_b">BootStrap</button>
                         <button data-filter=".gal_c">HTML5 / CSS</button>
                     </div>
@@ -439,8 +475,10 @@
                             <div id="project-1" class="hide">
                                 <image src="uploads/googleDocs.png" class="img-fluid logo" />
                                 <h2>1st Group Project @ Nashville Software School </h2>
-                                <p> It is a profile of the one and only Dean Martin that was created to showcase the
-                                    career life of "The King of Cool". We utilized HTML, CSS and Flexbox to build our
+                                <p> It is a profile of the one and only Dean Martin that was created to showcase
+                                    the
+                                    career life of "The King of Cool". We utilized HTML, CSS and Flexbox to
+                                    build our
                                     website, and blew up GitHub to merge our creation.</p>
                             </div>
                         </div>
@@ -522,7 +560,8 @@
                         <div class="testimonial clearfix">
                             <div class="desc">
                                 <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
-                                <p class="lead">They have got my project on time with the competition with a sed highly
+                                <p class="lead">They have got my project on time with the competition with a sed
+                                    highly
                                     skilled, and experienced & professional team.</p>
                             </div>
                             <div class="testi-meta">
@@ -563,7 +602,8 @@
                         <div class="testimonial clearfix">
                             <div class="desc">
                                 <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
-                                <p class="lead">They have got my project on time with the competition with a sed highly
+                                <p class="lead">They have got my project on time with the competition with a sed
+                                    highly
                                     skilled, and experienced & professional team.</p>
                             </div>
                             <div class="testi-meta">
@@ -683,7 +723,8 @@
                         <a href="#">Faq</a>
                         <a href="#">Contact</a>
                     </p>
-                    <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">Dominic</a> Design By :
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">Dominic</a> Design
+                        By :
                         <a href="https://html.design/">html design</a></p>
                 </div>
             </div>
@@ -705,7 +746,6 @@
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
     <script src="js/jquery.vide.js"></script>
-
 </body>
 
 </html>
