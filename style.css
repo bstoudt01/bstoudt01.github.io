@@ -2487,3 +2487,10 @@ select.mobile-device {
 .me{
     width: 50%;
 }
+
+.badgeLogo{
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+}
