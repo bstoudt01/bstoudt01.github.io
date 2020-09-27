@@ -32,3 +32,8 @@
         text-align: center;
         line-height: 30px;
 }
+
+.ContactMessage {
+   width: 60%;
+    resize: vertical;
+}
