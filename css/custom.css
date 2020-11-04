@@ -32,8 +32,31 @@
         text-align: center;
         line-height: 30px;
 }
+.SQLbadgeLogo{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
 
 .ContactMessage {
    width: 60%;
     resize: vertical;
 }
+
+.gallery-single {
+	position: relative;
+	overflow: hidden;
+	-webkit-box-shadow: 0 0 10px #ccc;
+	box-shadow: 0 0 10px #ccc;
+}
+
+.youTubeButton {
+    transition-duration: 0.4s; 
+  }
+  
+  .youTubeButton:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
